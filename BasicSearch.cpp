@@ -24,7 +24,7 @@ int main () {
 		for (i = 0; i < all; i++) {
 			if (searchedArray[j] == allArray[i]) {
 				flag = 1;
-				// stop all array loop after a value is equal
+				// stop all array loop after a value is found
 				// then proceeds to loop the searched array
 				break;
 			} else {
