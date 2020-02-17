@@ -40,7 +40,7 @@ int main () {
 		}
 		// Increment j
 		j++;
-	} while (j <= search);
+	} while (j < search);
 
 	return 0;
 }
