@@ -36,7 +36,7 @@ void printArray(int arr[], int n)
 
 int main()
 {
-	int arr[] = {12, 34, 54, 2, 3}, i;
+	int arr[] = {12, 34, 54, 2, 3, 100, 99, 98, 97, 96}, i;
 	int n = sizeof(arr)/sizeof(arr[0]);
 	cout << "Array before sorting: \n";
 	printArray(arr, n);

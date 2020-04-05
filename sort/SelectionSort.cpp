@@ -45,7 +45,7 @@ void printArray(int arr[], int size)
 
 int main()
 {
-	int arr[] = {46, 52, 21, 22, 11};
+	int arr[] = {46, 52, 21, 22, 11, 1, 2, 3, 4, 5};
 	int n = sizeof(arr)/sizeof(arr[0]);
 	selectionSort(arr, n);
 	printf("Sorted array: \n");

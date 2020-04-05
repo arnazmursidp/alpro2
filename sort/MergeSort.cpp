@@ -3,11 +3,11 @@
 	and r is the last index of array.
 */
 #include <stdio.h>
-// lets take a[5] = {32, 45, 67, 2, 7} as the array to be sorted.
+// lets take a[5] = {32, 45, 67, 2, 7, 1, 3, 30, 89, 100} as the array to be sorted.
 // function to merge the subarrays
 void merge(int a[], int p, int q, int r)
 {
-	int b[5]; //same size of a[]
+	int b[10]; //same size of a[]
 	int i, j, k;
 	k = 0;
 	i = p;
@@ -61,7 +61,7 @@ void printArray(int a[], int size)
 
 int main()
 {
-	int arr[] = {32, 45, 67, 2, 7};
+	int arr[] = {32, 45, 67, 2, 7, 1, 3, 30, 89, 100};
 	int len = sizeof(arr)/sizeof(arr[0]);
 	printf("Given array: \n");
 	printArray(arr, len);
